@@ -138,7 +138,15 @@ p {
     margin-bottom: 350px;
 
     font-size: 22px;
-    color: rgb(212, 235, 8);
+    color: rgb(196, 230, 118);
+    line-height: 1.5;
+    font-weight: 400;
+}
+.intro__subtitle1 {
+    margin-bottom: 350px;
+
+    font-size: 22px;
+    color: rgb(15, 15, 15);
     line-height: 1.5;
     font-weight: 400;
 }
@@ -146,40 +154,178 @@ p {
 
 
 
-
 /* Features
 ===================*/
-.Наше_отличие_от_других {
+.комплекс {
     display: flex;
     flex-wrap: wrap;
-    margin: -200px -300px;
+    margin: -200px -500px;
 }
 
-.Наше_отличие_от_других__item {
-    width: 33.33333%;
-    padding: 0 10px;
-    margin: 5px 0;
 
-    text-align: center;
-}
 
-.Наше_отличие_от_других__icon {
-    margin-bottom: 50px;
-}
 
-.Наше_отличие_от_других__title {
-    margin-bottom: 20px;
-
+.комплекс__title {
+    margin-bottom: 100px;
+    display: flex;
     font-size: 20px;
     color: #2d3033;
     font-weight: 800px;
     text-transform: uppercase;
+    position: absolute;
+    margin-left: 530px;
 }
 
-.Наше_отличие_от_других__text {
+.комплекс__text {
+    position: absolute;
     font-size: 14px;
     line-height: 1.5;
     color: #6c7279;
+    margin-left: 530px;
+    margin-top: 70px;
+}
+.комплекс__text1 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-left: 1020px;
+    margin-top: 70px;
+}
+.комплекс__text2 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-left: 1460px;
+    margin-top: 70px;
+}
+.комплекс__text3 {
+    margin-right: 10%;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    position: absolute;
+    margin-left: 1840px;
+    margin-top: 30px;
+}
+.комплекс__text4 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-left: 530px;
+    margin-top: 300px;
+    
+}
+.комплекс__text5 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-top: 300px;
+    margin-left: 1020px;
+}
+.комплекс__text6 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-top: 300px;
+    margin-left: 1460px;
+
+}
+.комплекс__text7 {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+    margin-top: 300px;
+    margin-left: 1840px;
+
+}
+.комплекс__title1 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 1020px;
+}
+.комплекс__title2 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 1460px;
+}
+.комплекс__title3 {
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 1840px;
+    
+
+    
+}
+.комплекс__title4 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 250px;
+}
+.комплекс__title5 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1020px;
+}
+.комплекс__title6 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1460px;
+    
+    
+    
+}
+.комплекс__title7 {
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 20px;
+    color: #2d3033;
+    font-weight: 800px;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1840px;
+    
+    
+    
 }
 
 
@@ -188,7 +334,7 @@ p {
 .Тренировки {
     display: flex;
     flex-wrap: wrap;
-    margin: 300px 1px;
+    margin: 700px 1px;
 }
 
 .Тренировки__item {
@@ -251,11 +397,17 @@ p {
     color: #fff;
 }
 
+.Видео {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 400px 1px;
+}
+
 /* описание
 ===================*/
 
 .Описание_тренировок {
-    margin: -200px 0;
+    margin: -650px 0;
 
     text-align: left;
 }
@@ -273,7 +425,52 @@ p {
 
     font-size: 14px;
     line-height: 1.5;
-    color: #6c7279;
+    color: #060607;
+}
+.Описание__photo {
+    min-width: 20%;
+
+    position: absolute;
+    top: 240%;
+    left: 79%;
+    z-index: 1;
+
+    
+}
+.Описаниеее__photo {
+    min-width: 20%;
+
+    position: absolute;
+    top: 250%;
+    left: -4%;
+    z-index: 1;
+    
+    
+}
+
+/* Текст
+===================*/
+.text_te{
+    margin: 350px 0 70px;
+    margin-bottom: 20px;
+    
+    top: 295%;
+    font-size: 50px;
+    line-height: 1.5;
+    color: #060607;
+}
+.text_video{
+border-top: rgb(241, 226, 6);
+border-right: rgb(241, 226, 6);
+border-left: rgb(241, 226, 6);
+border-bottom: rgb(241, 226, 6);
+border-top: 10px;
+border-right: 10px;
+border-left: 10px;
+border-bottom: 10px;
+border-style:solid;
+border-width: thin;
+
 }
 
 
@@ -282,13 +479,13 @@ p {
 /* Наши тренера
 ===================*/
 .Тренера {
-    margin: 300px 0 70px;
+    margin: 300px 80 50px;
 }
 
 .Тренера__inner {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -130px;
 }
 
 .Тренера__item {
@@ -564,7 +761,7 @@ p {
 
 
 /* Burger */
-.burger {
+.telefon {
     display: none;
     padding: 9px 2px;
 
@@ -573,7 +770,7 @@ p {
     cursor: pointer;
 }
 
-.burger__item {
+.telefon__item {
     display: block;
     width: 28px;
     height: 3px;
@@ -586,8 +783,8 @@ p {
     position: relative;
 }
 
-.burger__item:before,
-.burger__item:after {
+.telefon__item:before,
+.telefon__item:after {
     content: "";
     height: 100%;
 
@@ -598,12 +795,12 @@ p {
     z-index: 1;
 }
 
-.burger__item:before {
+.telefon__item:before {
     width: 30px;
     top: -8px;
 }
 
-.burger__item:after {
+.telefon__item:after {
     width: 26px;
     bottom: -8px;
 }
